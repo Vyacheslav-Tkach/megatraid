@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>МЕГАТРЕЙД - Импортируем без потерь</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="sec-1">
+        <div class="header__top">
+            <div class="container">
+                <div class="header_item">
+                    <div class="first__group">
+                        <a class="header__phone" href="tel:79787001360">
+                            <svg class="svg__phone" version="1.1" xmlns="http://www.w3.org/2000/svg" width="22"
+                                height="28" viewBox="0 0 22 28">
+                                <title>phone</title>
+                                <path
+                                    d="M22 19.375c0 0.562-0.25 1.656-0.484 2.172-0.328 0.766-1.203 1.266-1.906 1.656-0.922 0.5-1.859 0.797-2.906 0.797-1.453 0-2.766-0.594-4.094-1.078-0.953-0.344-1.875-0.766-2.734-1.297-2.656-1.641-5.859-4.844-7.5-7.5-0.531-0.859-0.953-1.781-1.297-2.734-0.484-1.328-1.078-2.641-1.078-4.094 0-1.047 0.297-1.984 0.797-2.906 0.391-0.703 0.891-1.578 1.656-1.906 0.516-0.234 1.609-0.484 2.172-0.484 0.109 0 0.219 0 0.328 0.047 0.328 0.109 0.672 0.875 0.828 1.188 0.5 0.891 0.984 1.797 1.5 2.672 0.25 0.406 0.719 0.906 0.719 1.391 0 0.953-2.828 2.344-2.828 3.187 0 0.422 0.391 0.969 0.609 1.344 1.578 2.844 3.547 4.813 6.391 6.391 0.375 0.219 0.922 0.609 1.344 0.609 0.844 0 2.234-2.828 3.187-2.828 0.484 0 0.984 0.469 1.391 0.719 0.875 0.516 1.781 1 2.672 1.5 0.313 0.156 1.078 0.5 1.188 0.828 0.047 0.109 0.047 0.219 0.047 0.328z">
+                                </path>
+                            </svg>
+                            +7 (978) 700 13 60
+                        </a>
+                        <a class="header__mail" href="mail:megatrade.ltd.ru@gmail.com">
+                            <svg class="svg__mail" version="1.1" xmlns="http://www.w3.org/2000/svg" width="28"
+                                height="28" viewBox="0 0 28 28">
+                                <title>megatrade.ltd.ru@gmail.com</title>
+                                <path
+                                    d="M26 23.5v-12c-0.328 0.375-0.688 0.719-1.078 1.031-2.234 1.719-4.484 3.469-6.656 5.281-1.172 0.984-2.625 2.188-4.25 2.188h-0.031c-1.625 0-3.078-1.203-4.25-2.188-2.172-1.813-4.422-3.563-6.656-5.281-0.391-0.313-0.75-0.656-1.078-1.031v12c0 0.266 0.234 0.5 0.5 0.5h23c0.266 0 0.5-0.234 0.5-0.5zM26 7.078c0-0.391 0.094-1.078-0.5-1.078h-23c-0.266 0-0.5 0.234-0.5 0.5 0 1.781 0.891 3.328 2.297 4.438 2.094 1.641 4.188 3.297 6.266 4.953 0.828 0.672 2.328 2.109 3.422 2.109h0.031c1.094 0 2.594-1.437 3.422-2.109 2.078-1.656 4.172-3.313 6.266-4.953 1.016-0.797 2.297-2.531 2.297-3.859zM28 6.5v17c0 1.375-1.125 2.5-2.5 2.5h-23c-1.375 0-2.5-1.125-2.5-2.5v-17c0-1.375 1.125-2.5 2.5-2.5h23c1.375 0 2.5 1.125 2.5 2.5z">
+                                </path>
+                            </svg>
+                            megatrade.ltd.ru@gmail.com
+                        </a>
+                    </div>
+                    <div class="second__group">
+
+                        <a class="header__btn" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                            href="javascript:;">
+                            <svg class="svg__briefcase" version="1.1" xmlns="http://www.w3.org/2000/svg" width="28"
+                                height="28" viewBox="0 0 25 28">
+                                <title>phone-square</title>
+                                <path d="M20 18.641c0-0.078 0-0.172-0.031-0.25-0.094-0.281-2.375-1.437-2.812-1.687-0.297-0.172-0.656-0.516-1.016-0.516-0.688 0-1.703 2.047-2.312 2.047-0.313 0-0.703-0.281-0.984-0.438-2.063-1.156-3.484-2.578-4.641-4.641-0.156-0.281-0.438-0.672-0.438-0.984 0-0.609 2.047-1.625 2.047-2.312 0-0.359-0.344-0.719-0.516-1.016-0.25-0.438-1.406-2.719-1.687-2.812-0.078-0.031-0.172-0.031-0.25-0.031-0.406 0-1.203 0.187-1.578 0.344-1.031 0.469-1.781 2.438-1.781 3.516 0 1.047 0.422 2 0.781 2.969 1.25 3.422 4.969 7.141 8.391 8.391 0.969 0.359 1.922 0.781 2.969 0.781 1.078 0 3.047-0.75 3.516-1.781 0.156-0.375 0.344-1.172 0.344-1.578zM24 6.5v15c0 2.484-2.016 4.5-4.5 4.5h-15c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15c2.484 0 4.5 2.016 4.5 4.5z"></path>
+                            </svg>
+                            Перезвоним Вам
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="heade__content-wraper">
+                    <div class="header__logo">                  
+                            <img src="img/logo.png" alt="#">
+                    </div>
+                    <nav class="header__menu">
+                        <div class="header__btn__menu">
+                            <span class="header__icon_bars"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="28" viewBox="0 0 24 28">
+                                    <title>bars</title>
+                                    <path
+                                        d="M24 21v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 13v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 5v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1z">
+                                    </path>
+                                </svg></span>
+                        </div>
+                        <ul>
+                            <li><a href="#sec-1">Главная</a></li>
+                            <li><a href="#sec-2">О компании</a></li>
+                            <li><a href="#sec-3">Услуги</a></li>
+                            <li><a href="#sec-4">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__inner">
+                <div class="slider__item">
+                    <div class="slider__title">
+                        <h1>Переговоры с импортными производителями товаров</h1>
+                    </div>
+                    <div class="slider__text">
+                        <p>Решение вопросов с китайскими и европейскими фабриками</p>
+                    </div>
+                    <div class="slider__btn default-btn">
+                        <a data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                            href="javascript:;">Оставить заявку</a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__title">
+                        <h1>Доставка товаров в РФ</h1>
+                    </div>
+                    <div class="slider__text">
+                        <p>Помощь в организации доставки товаров в Российскую Федерацию</p>
+                    </div>
+                    <div class="slider__btn default-btn">
+                        <a data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                            href="javascript:;">Оставить заявку</a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__title">
+                        <h1>Декларирование товаров</h1>
+                    </div>
+                    <div class="slider__text">
+                        <p>Без квалифицированной консультации в вопросах таможенного оформления не обойтись.</p>
+                    </div>
+                    <div class="slider__btn default-btn">
+                        <a data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                            href="javascript:;">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block" id="sec-3">
+        <div class="container">
+            <div class="block__titel">
+                <div class="block__titel block__titel__content">
+                    <div>
+                        <h3>Наши Услуги</h3>
+                    </div>
+                    <div>
+                        <p>Комплексный подход к решению Вашего вопроса, своевременная помощь в вопросах внешнеэкономической деятельности.</p>
+                    </div>
+                </div>
+                <div class="block__titel block__titel__btn">
+                    <div>
+                        <a href="#"
+                            onClick='this.innerHTML=="Показать всё услуги" ? this.innerHTML="Скрыть всё услуги" : this.innerHTML="Показать всё услуги"'
+                            class="trigger">Показать всё услуги</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block__main">
+                <div class="service__inner">
+                    <div class="service__item">
+                        <img src="img/outsorsing.png" alt="#">
+                        <h4>Аутсорсинг ВЭД</h4>
+                        <p>Компания «Мегатрейд» на профессиональном уровне осуществляет аутсорсинг ВЭД (внешнеэкономической деятельности). 
+                            <!-- Аутсорсинг внешнеэкономической деятельности – это передача конкретных производственных функций и бизнес-процессов в сфере ВЭД другой компании, занимающейся данными вопросами на профессиональном уровне. -->
+                        </p>
+                        <div class="service__item__btn">
+                            <div class="more-btn">
+                                <a href="#">Подробнее</a>
+                            </div>
+
+                            <div class="default-btn service-btn">
+                                <a href="#" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                                    href="javascript:;">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <img src="img/users.png" alt="#">
+                        <h4>Консультации</h4>
+                        <p>Подготовка проекта импорта/экспорта Ваших товаров, при это просчитаем все затраты по международному транспорту. Рекомендации по валютным операциям.</p>
+                        <div class="service__item__btn">
+                            <div class="more-btn">
+                                <a href="#">Подробнее</a>
+                            </div>
+
+                            <div class="default-btn service-btn">
+                                <a href="#" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                                    href="javascript:;">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__item service__item-del">
+                        <img src="img/briefcase.png" alt="#">
+                        <h4>Сопровождение</h4>
+                        <p>Юридическое, лингвистическое и таможенное сопровождение ВЭД - подготовим контракты и весь пакет документов на русском и английском языке.</p>
+                        <div class="service__item__btn">
+                            <div class="more-btn">
+                                <a href="#">Подробнее</a>
+                            </div>
+
+                            <div class="default-btn service-btn">
+                                <a href="#" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                                    href="javascript:;">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service__inner-second">
+                    <div class="service__inner">
+                        <div class="service__item">
+                            <img src="img/clipboard.png" alt="#">
+                            <h4>Сертификация</h4>
+                            <p>Помощь в оформлении сертификатов, деклараций соответствия, отказных писем. В соотвецтвии с требованиями и положениями Таможенного кодекса РФ
+                            </p>
+                            <div class="service__item__btn">
+                                <div class="more-btn">
+                                    <a href="#">Подробнее</a>
+                                </div>
+
+                                <div class="default-btn service-btn">
+                                    <a href="#" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                                        href="javascript:;">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <img src="img/shield.png" alt="#">
+                            <h4>Мультимодальные перевозки </h4>
+                            <p>Помощь в транспортировке грузов по одному договору, но выполненная по меньшей мере двумя видами транспорта, ответственность за всю перевозку.
+                            </p>
+                            <div class="service__item__btn">
+                                <div class="more-btn">
+                                    <a href="#">Подробнее</a>
+                                </div>
+
+                                <div class="default-btn service-btn">
+                                    <a href="#" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                                        href="javascript:;">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item service__item-del">
+                            <img src="img/setting.png" alt="#">
+                            <h4>Таможенное оформление.</h4>
+                            <p>Помощь в процедуре помещения товаров и транспортных средств под определенный таможенный режим и завершения действия этого режима 
+                                <!-- в соответствии с требованиями и положениями Таможенного кодекса РФ. -->
+                            </p>
+                            <div class="service__item__btn">
+                                <div class="more-btn">
+                                    <a href="#">Подробнее</a>
+                                </div>
+
+                                <div class="default-btn service-btn">
+                                    <a href="#" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                                        href="javascript:;">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="service__inner-second">
+                    <div class="service__inner service__item-dow">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="block" id="sec-2">
+        <div class="about_compane">
+            <div class="container">
+                <div class="contant">
+                    <h2>О компании </h2>
+                    <p>Компания специализируется на оказании услуг в сфере аутсорсинга ВЭД. На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в области внешнеэкономической деятельности.</p>
+                    <div class="default-btn">
+                        <a href="#" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                            href="javascript:;">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block block__form">
+        <div class="container">
+            <div class="block__titel">
+                <div class="block__titel block__titel__content">
+                    <div>
+                        <h3>Получить Консультацию</h3>
+                    </div>
+                    <div>
+                        <p>Комплексный подход к вашему вопросу, своевременная правовую помощь, представление
+                            интересов
+                            во
+                            всех судебных инстанциях.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block__form__contant">
+                <div class="form__box-inner">
+                    <div class="form__box-left">
+                        <label>
+                            <span>E-mail</span>
+                            <input class="input__e-mail" type="text">
+                        </label>
+                        <label>
+                            <span>Контактный телефон</span>
+                            <input class="input__telephone" type="text">
+                        </label>
+                        <label>
+                            <span>ФИО</span>
+                            <input class="input__fio" type="text">
+                        </label>
+                        <label>
+                            <span>Тема вопроса</span>
+                            <select>
+                                <option>Другое</option>
+                                <option>Сопровождение</option>
+                                <option>Консультации</option>
+                                <option>Сертификация</option>
+                                <option>Таможенное оформление</option>                                
+                            </select>
+                        </label>
+                    </div>
+                    <div class="form__box-right">
+                        <label>
+                            <span>Сообщение</span>
+                            <textarea name="#" class="input__sms" cols="80" rows="8"></textarea>
+                        </label>
+                        <button type="reset" data-fancybox data-animation-duration="700" data-src="#animatedModal"
+                            href="javascript:;">Получить консультацию</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="block block__advantage__wrap">
+        <div class="advantage">
+            <div class="container">
+                <div class="contant">
+                    <div class="contant__inner">
+                        <div class="contant__item">
+                            <div>
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                    viewBox="0 0 28 28">
+                                    <title>check</title>
+                                    <path
+                                        d="M26.109 8.844c0 0.391-0.156 0.781-0.438 1.062l-13.438 13.438c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-7.781-7.781c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.609 10.25-10.266c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h5>
+                                Отличное знание законов в сфере ВЭД 
+                            </h5>
+                            <p>
+                                Позволяют нам эффективно осуществлять внешнеэкономическую деятельность
+                            </p>
+                        </div>
+                        <div class="contant__item">
+                            <div>
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                    viewBox="0 0 28 28">
+                                    <title>check</title>
+                                    <path
+                                        d="M26.109 8.844c0 0.391-0.156 0.781-0.438 1.062l-13.438 13.438c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-7.781-7.781c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.609 10.25-10.266c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062z">
+                                    </path>
+                                </svg></div>
+                            <h5>
+                                Большой опыт в импорте товаров в РФ 
+                            </h5>
+                            <p>
+                                Мы обладаем большим опытом ввоза товара в Российскую Федерацию
+                            </p>
+                        </div>
+                        <div class="contant__item">
+                            <div>
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                    viewBox="0 0 28 28">
+                                    <title>check</title>
+                                    <path
+                                        d="M26.109 8.844c0 0.391-0.156 0.781-0.438 1.062l-13.438 13.438c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-7.781-7.781c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.609 10.25-10.266c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062z">
+                                    </path>
+                                </svg></div>
+                            <h5>
+                                Надежность и стабильность работы 
+                            </h5>
+                            <p>
+                                Мы умеем минимизировать риски во внешнеэкономической деятельности
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block block-news">
+        <div class="container">
+            <div class="block__titel">
+                <div class="block__titel block__titel__content">
+                    <div>
+                        <h3>Новости Компании</h3>
+                    </div>
+                    <div>
+                        <p>Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов
+                            во всех судебных инстанциях.</p>
+                    </div>
+                </div>
+                <div class="block__titel block__titel__btn">
+                    <div>
+                        <a target="_blank" href="https://www.tks.ru/news/nearby/">Открыть все новости</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block__main">
+                <div class="news__inner slider_news">
+                    <div class="news__item">
+                        <article>
+                            <div class="news__item__date">
+                                <span><time datetime="29-01-2020">29.01</time></span>
+                            </div>
+                            <img src="img/news_1.jpg" alt="">
+                            <h1>Первое место в рейтинге качества администрирования контрольно-надзорных функций</h1>
+                            <p> Таможенный контроль признан лучшим по качеству администрирования среди 38 видов государственного контроля (надзора) по результатам исследования, проведенного в 2019 году Аналитическим центром при Правительстве Российской Федерации совместно с НИУ «Высшая школа экономики» по материалам деятельности федеральных органов исполнительной власти в 2018 году.
+                                <br>
+                                Федеральная таможенная служба также второй год подряд занимает лидирующую позицию в целом среди федеральных органов исполнительной власти, осуществляющих контрольную и надзорную деятельность. По итогам исследования 2019 года ведомству присвоено 618 баллов из 1000 возможных, что на 19,8% выше показателя ФТС России в предыдущем исследовании.
+                            </p>
+                            <address>Информация с сайта "TKS.RU: всё о ТАМОЖНЕ" </address>
+                        </article>
+                    </div>
+                    <div class="news__item">
+                        <article>
+                            <div class="news__item__date">
+                                <span><time datetime="28-09-2020">28.01</time></span>
+                            </div>
+                            <img src="img/news_2.jpg" alt="">
+                            <h1>Таможня планирует подключать искусственный интеллект к пропуску фур </h1>
+                            <p>
+                                Полный переход таможенных органов к 2030 году в интеллектуальную цифровую среду позволит автоматизировать регистрацию автомобилей и не задерживать их на пунктах пропуска. Об этом сообщил замруководителя ФТС Владимир Ивин в ходе расширенного заседания Комитета Совета Федерации по бюджету и финрынку.
+                                <br>
+                                Как пояснил Владимир Ивин, стратегия развития таможенной службы до 2030 года, которая вскоре будет внесена в Правительство, предполагает переход службы в интеллектуальную цифровую среду, предусматривающую автоматическую регистрацию автомобилей, двигающихся через пункты пропуска.
+                                <br>
+                                В настоящее время возможности оптимизации налогов для коммерческих организаций сведены к
+                                минимуму.
+                                <br>
+                                «Если партия не рисковая, то вполне допускается создать «зеленый коридор», и в этом случае автомобиль будет пересекать пункт пропуска без контактов с таможенниками, — уточнил чиновник. — Что касается погранслужбы, сейчас и у них внедряются технологии, которые позволяют считывать данные с электронных паспортов. Если все это мы внедрим одновременно, то автомобиль будет пересекать пункт пропуска вообще без остановки. Технологически службы к этому готовы, осталось доработать инфраструктуру»
+                                <br>
+                            </p>
+                            <address>Информация с сайта "TKS.RU: всё о ТАМОЖНЕ" </address>
+                        </article>
+                    </div>
+                    <div class="news__item">
+                        <article>
+                            <div class="news__item__date">
+                                <span><time datetime="21-09-2020">21.01</time></span>
+                            </div>
+                            <img src="img/news_3.jpg" alt="">
+                            <h1>Одобрено Соглашение о единой системе идентификации участников ВЭД в рамках ЕАЭС</h1>
+                            <p>Коллегия Евразийской экономической комиссии (ЕЭК) 20 января рассмотрела вопросы в сферах торговли, таможенного сотрудничества, технического регулирования, энергетики, информатизации экономик стран Евразийского экономического союза (ЕАЭС).
+                                <br>
+                                Коллегия ЕЭК одобрила проект Соглашения о единой системе идентификации участников внешнеэкономической деятельности (ВЭД) в рамках ЕАЭС.
+                            </p>
+                            <address>Информация с сайта "TKS.RU: всё о ТАМОЖНЕ" </address>
+                        </article>
+                    </div>
+                    <div class="news__item">
+                        <article>
+                            <div class="news__item__date">
+                                <span><time datetime="19-01-2020">19.01</time></span>
+                            </div>
+                           <img src="img/news_4.jpg" alt="">
+                                <h1>С 1 февраля 2020 г. вступят в силу ряд изменений, внесенных в Инструкцию по заполнению таможенных деклараций</h1>
+                                <p>С 1 февраля 2020 года вступят в силу ряд изменений, внесенных в Инструкцию по заполнению таможенных деклараций, утвержденную Решением Комиссии Таможенного союза от 20 мая 2010 года N 257 (ред. от 08.10.2019)   
+                                <br>
+                                Так, с февраля 2020 года данная Инструкция будет называться "Порядок заполнения декларации на товары".
+                            <br>
+                            Главным изменением будет исключение ссылок на Таможенный Кодекс таможенного союза, который заменил Таможенный кодекс Евразийского экономического союза.
+                        </p>
+                            </a>
+                            <address>Информация с сайта "TKS.RU: всё о ТАМОЖНЕ" </address>
+                        </article>
+                    </div>
+                    <div class="news__item">
+                        <article>
+                            <div class="news__item__date">
+                                <span><time datetime="03-04">19.01</time></span>
+                            </div>
+                            <img src="img/news_5.jpg" alt="">
+                            <h1>Упрощен порядок декларирования экспресс-грузов для личного пользования</h1>
+                            <p>Одобрены изменения в некоторые решения Комиссии, касающиеся таможенного декларирования экспресс-грузов, доставляемых экспресс-перевозчиками в качестве товаров для личного пользования.
+                                <br>
+                                Изменения помогут усовершенствовать и упростить порядок декларирования этой категории товаров. Оптимизированы порядки заполнения пассажирской таможенной декларации для экспресс-грузов и документа уплаты. В частности, предусмотрена возможность незаполнения сведений о предшествующем документе при предварительном таможенном декларировании, конкретизирован порядок округления при указании массы товаров и др. При заполнении документа об уплате предусмотрена возможность незаполнения некоторых разделов, касающихся сведений об уплате (взыскании) таможенных платежей, пеней.
+
+Пресс-служба ЕЭК
+
+                            </p>
+                            <address>Информация с сайта "TKS.RU: всё о ТАМОЖНЕ" </address>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__main" id="sec-4">
+            <div class="container">
+                <div class="footer__main__left">
+                    <h6>МЕГАТРЕЙД</h6>
+                    <p>Комплексный подход к решению Вашего вопроса, своевременная помощь в вопросах внешнеэкономической деятельности.</p>
+                    <a class="header__btn btn-footer" data-fancybox data-animation-duration="700"
+                        data-src="#animatedModal" href="javascript:;">
+                        <svg class="svg__briefcase" version="1.1" xmlns="http://www.w3.org/2000/svg" width="28"
+                            height="28" viewBox="0 0 28 28">
+                            <title>briefcase</title>
+                            <path
+                                d="M10 4h8v-2h-8v2zM28 14v7.5c0 1.375-1.125 2.5-2.5 2.5h-23c-1.375 0-2.5-1.125-2.5-2.5v-7.5h10.5v2.5c0 0.547 0.453 1 1 1h5c0.547 0 1-0.453 1-1v-2.5h10.5zM16 14v2h-4v-2h4zM28 6.5v6h-28v-6c0-1.375 1.125-2.5 2.5-2.5h5.5v-2.5c0-0.828 0.672-1.5 1.5-1.5h9c0.828 0 1.5 0.672 1.5 1.5v2.5h5.5c1.375 0 2.5 1.125 2.5 2.5z">
+                            </path>
+                        </svg>
+                        Бесплатная консультация
+                    </a>
+                    <div class="footer-contacts">
+                        <a href="#">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                viewBox="0 0 22 28">
+                                <title>phone</title>
+                                <path
+                                    d="M22 19.375c0 0.562-0.25 1.656-0.484 2.172-0.328 0.766-1.203 1.266-1.906 1.656-0.922 0.5-1.859 0.797-2.906 0.797-1.453 0-2.766-0.594-4.094-1.078-0.953-0.344-1.875-0.766-2.734-1.297-2.656-1.641-5.859-4.844-7.5-7.5-0.531-0.859-0.953-1.781-1.297-2.734-0.484-1.328-1.078-2.641-1.078-4.094 0-1.047 0.297-1.984 0.797-2.906 0.391-0.703 0.891-1.578 1.656-1.906 0.516-0.234 1.609-0.484 2.172-0.484 0.109 0 0.219 0 0.328 0.047 0.328 0.109 0.672 0.875 0.828 1.188 0.5 0.891 0.984 1.797 1.5 2.672 0.25 0.406 0.719 0.906 0.719 1.391 0 0.953-2.828 2.344-2.828 3.187 0 0.422 0.391 0.969 0.609 1.344 1.578 2.844 3.547 4.813 6.391 6.391 0.375 0.219 0.922 0.609 1.344 0.609 0.844 0 2.234-2.828 3.187-2.828 0.484 0 0.984 0.469 1.391 0.719 0.875 0.516 1.781 1 2.672 1.5 0.313 0.156 1.078 0.5 1.188 0.828 0.047 0.109 0.047 0.219 0.047 0.328z">
+                                </path>
+                            </svg>
+                            +38 (096) 309 21 45</a>
+                        <a href="#">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="14"
+                                viewBox="0 0 28 28">
+                                <title>envelope-o</title>
+                                <path
+                                    d="M26 23.5v-12c-0.328 0.375-0.688 0.719-1.078 1.031-2.234 1.719-4.484 3.469-6.656 5.281-1.172 0.984-2.625 2.188-4.25 2.188h-0.031c-1.625 0-3.078-1.203-4.25-2.188-2.172-1.813-4.422-3.563-6.656-5.281-0.391-0.313-0.75-0.656-1.078-1.031v12c0 0.266 0.234 0.5 0.5 0.5h23c0.266 0 0.5-0.234 0.5-0.5zM26 7.078c0-0.391 0.094-1.078-0.5-1.078h-23c-0.266 0-0.5 0.234-0.5 0.5 0 1.781 0.891 3.328 2.297 4.438 2.094 1.641 4.188 3.297 6.266 4.953 0.828 0.672 2.328 2.109 3.422 2.109h0.031c1.094 0 2.594-1.437 3.422-2.109 2.078-1.656 4.172-3.313 6.266-4.953 1.016-0.797 2.297-2.531 2.297-3.859zM28 6.5v17c0 1.375-1.125 2.5-2.5 2.5h-23c-1.375 0-2.5-1.125-2.5-2.5v-17c0-1.375 1.125-2.5 2.5-2.5h23c1.375 0 2.5 1.125 2.5 2.5z">
+                                </path>
+                            </svg>
+                            layout585@gmail.com</a>
+                        <a href="#">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                viewBox="0 0 16 28">
+                                <title>map-marker</title>
+                                <path
+                                    d="M12 10c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM16 10c0 0.953-0.109 1.937-0.516 2.797l-5.688 12.094c-0.328 0.688-1.047 1.109-1.797 1.109s-1.469-0.422-1.781-1.109l-5.703-12.094c-0.406-0.859-0.516-1.844-0.516-2.797 0-4.422 3.578-8 8-8s8 3.578 8 8z">
+                                </path>
+                            </svg>
+                            Киев, ул.Пушиной, 13
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__main__right">
+                    <div class="map">
+                        <div class="yandex_map">
+                            <iframe
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad89eb6302d534bb492650d288fe0e7299e06de961bad9bd3e441c683be48f3b5&amp;source=constructor"
+                                 height="720" frameborder="3"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rights">
+            <div class="container">
+                <p>© 2019 Template by Vyacheslav. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="animatedModal" class="animated-modal">
+        <h2>Привет!</h2>
+        <p>Этот сайт я делаю для своего портфолио и развития навыков,<br> чтобы вас не обнадеживать отправка сообщений везде отключена! </p>
+        <p>
+            <input type="text" value="" name="hi1" class="form-control" placeholder="Введите Ваше имя">
+        </p>
+        <p>
+            <input type="text" value="" name="hi2" class="form-control" placeholder="Введите Вашу почту">
+        </p>
+        <button type="button" name="modal__btn" class="modal__btn">Отправить</button>
+    </div>
+
+
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
